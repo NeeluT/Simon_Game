@@ -1,0 +1,128 @@
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+   main {
+    margin-top: 125px;
+   }
+
+  .hidden {
+    display: none;
+  }
+  
+  .invisble {
+    visibility: hidden;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: 180px 180px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .unclickable {
+    pointer-events: none;
+  }
+  
+  .tile-red {
+    background-color: red;
+  }
+  
+  .tile-red:hover,
+  .tile-red:focus {
+    background-color: #e18c79;
+    
+  }
+  
+  .tile-red:active,
+  .tile-red.activated {
+    background-color: #e18c79;
+
+  }
+  
+  .tile-green {
+    background-color: green;
+    
+  }
+  
+  .tile-green:hover,
+  .tile-green:focus {
+    background-color: #caf273;
+  }
+  
+  .tile-green:active,
+  .tile-green.activated {
+   
+    background-color: #caf273;
+  }
+  
+  .tile-yellow {
+    background-color: yellow;
+  }
+  
+  .tile-yellow:hover,
+  .tile-yellow:focus {
+    background-color: #dab88f;
+  }
+  
+  .tile-yellow:active,
+  .tile-yellow.activated {
+    background-color: #dab88f;
+  }
+  
+  .tile-blue {
+    background-color: blue;
+  }
+  
+  .tile-blue:hover,
+  .tile-blue:focus {
+    background-color: #2bbcff;
+  }
+  
+  .tile-blue:active,
+  .tile-blue.activated {
+    background-color: #2bbcff;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  #start-button {
+    height: 38px;
+    padding: 0 30px;
+    font-size: 14px;
+    border: 1px solid #bbb;
+  }
+  
+  #start-button:hover {
+    color: #333;
+    border-color: #888;
+    outline: 0;
+  }
+  
+  .info {
+    font-size: 22px;
+  }
+  
+  .heading {
+    font-size: 2em;
+  }
+  
