@@ -2,14 +2,14 @@
 
 ## Wireframes the UI◊
 
-    - The name of the game (Simon) shows up on top of the page
-    - Messages to the user about the level of the game show up on top of the board
-    - Messages to the user about the turns show up on the bottom of the board
-    - Play again button goes on the bottom of the page
-    - Failure message will take the entire page
-    - Drawing and visual layout of the page 
+   - The name of the game (Simon) shows up on top of the page
+   - Messages to the user about the level of the game show up on top of the board
+   - Messages to the user about the turns show up on the bottom of the board
+   - Play again button goes on the bottom of the page
+   - Failure message will take the entire page
+   - Drawing and visual layout of the page 
 
-    ![Simon Game](Assets/SimonBoard.png)
+   ![Simon Game](Assets/SimonBoard.png)
     
 
 ## Pseudocode
