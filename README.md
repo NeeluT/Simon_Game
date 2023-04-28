@@ -1,14 +1,24 @@
 # Planning for Simon Game
 
 ## Wireframes the UI◊
+<<<<<<< HEAD
     - The name of the game (Simon) shows up on top of the page
     - Messages to the user about the level of the game show up on top of the board
     - Messages to the user about the turns show up on the bottom of the board
     - Play again button goes on the bottom of the page
     - Failure message will take the entire page
     - Drawing and visual layout of the page 
+=======
 
-    ![Simon Game](Assets/SimonBoard.png)
+   - The name of the game (Simon) shows up on top of the page
+   - Messages to the user about the level of the game show up on top of the board
+   - Messages to the user about the turns show up on the bottom of the board
+   - Play again button goes on the bottom of the page
+   - Failure message will take the entire page
+   - Drawing and visual layout of the page 
+>>>>>>> 9810711ea80d5c1051c26170129ab343862ccecf
+
+   ![Simon Game](Assets/SimonBoard.png)
     
 
 ## Pseudocode
@@ -61,6 +71,7 @@
             - If not set the player sequence as empty and start the next round afte a second (So that player can see they completed the sequence correctly) by going back to step 5.3
 
 
+<<<<<<< HEAD
 ## Technologies I used:
 - HTML
 - CSS
@@ -69,7 +80,23 @@
 ## How to play:
 Hit start and wait for the computer to show you an order of tiles beeping. Once the computer is done and it says your tun go ahead and try to follow the pattern same as computer by clicking on the tiles. On every round it will add one more tile to the sequences. You can go up to 35 levels. If you hit a wrong tile along the way you will get the game over message. Then you can start over.
 
+=======
+
+## Technologies I used:
+- HTML
+- CSS
+- JavaScript
+
+## How to play:
+Hit start and wait for the computer to show you an order of tiles beeping. Once the computer is done and it says your tun go ahead and try to follow the pattern same as computer by clicking on the tiles. On every round it will add one more tile to the sequences. You can go up to 35 levels. If you hit a wrong tile along the way you will get the game over message. Then you can start over.
+
+
+>>>>>>> 9810711ea80d5c1051c26170129ab343862ccecf
 ## Next Steps:
 - Add graphics
 - Add Scores
 - Add quit option during the game
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9810711ea80d5c1051c26170129ab343862ccecf
