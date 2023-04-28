@@ -2,10 +2,6 @@
 
 ## Wireframes the UI◊
 
-- High Fidelity
-    - Buttons and tiles are clickable
-    
-- Low Fidelity
     - The name of the game (Simon) shows up on top of the page
     - Messages to the user about the level of the game show up on top of the board
     - Messages to the user about the turns show up on the bottom of the board
@@ -66,16 +62,14 @@
             - If not set the player sequence as empty and start the next round afte a second (So that player can see they completed the sequence correctly) by going back to step 5.3
 
 
-## Identify the application's state (data)
 
-```js
-let sequence
-```
+## Technologies I used:
+- HTML
+- CSS
+- JavaScript
 
-```js
-let playerSequence
-```
+## Next Steps:
+- Add graphics
+- Add Scores
+- Add quit option during the game
 
-```js
-let level
-```
