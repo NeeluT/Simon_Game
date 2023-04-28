@@ -1,16 +1,37 @@
-# Planning for Simon Game
+# Planning for Simon
+
+## Analyze the app's functionality
+
+MVP
+
+As a uer....
+
+- I want to be able to have 1 player
+- I want to have 4 tiles to play with
+- I want to be able to go to next level if I follow the taps correctly
+- I want to know on what level I am
+- I want to get notified when I win the last level
+
+
+Plans to improve this game in the future:
+- Add scores
+- Add more graphic
+
+- clean/minimalists
+
 
 ## Wireframes the UI◊
 
 - High Fidelity
-    - Buttons and tiles are clickable
+    - Buttons are clickable
+    - hover effect happens on buttons
     
 - Low Fidelity
+    - The app has one page
     - The name of the game (Simon) shows up on top of the page
     - Messages to the user about the level of the game show up on top of the board
-    - Messages to the user about the turns show up on the bottom of the board
+    - Messages to the user about the win or failure show up on the bottom of the board
     - Play again button goes on the bottom of the page
-    - Failure message will take the entire page
     - Drawing and visual layout of the page 
 
     ![Simon Game](Assets/SimonBoard.png)
@@ -44,26 +65,23 @@
 5) Handle a player clicking start button
     5.1) Hide the start button
     5.2) Unhide the message showing the level
-    5.3) increase level by 1 
+    5.3) increase level by 1
     5.4) Make the board unclickable
     5.5) Show the message "level x of 35"
-        5.5.1) Create a list of tiles' dataset attributes and pick a random tile from that list
-    5.6) Create a new sequence and push the generated random tiles to it
-        5.6.1) Loop through the newly created sequence 
-        5.6.2) Grab the tile dataset attributes and corresponding sounds
-        5.6.3) Change the style of each tile and plays the corresponding sound
+    5.6) Create a new sequence
     5.7) Add a delay before playerTurn is run to make sure computer is done with the taps
-    5.8) Make the board clickable and update the message to say "Your Turn" and give the number of taps the player needs to make by grabing the level value
-    5.9) Wait for the user to hit a tile
 
 6) Handle a player clicking a tile
     6.1) Push the clicked tile to the playerSequence
-    6.2) Grab corresponding data-sound element for that tile from html and use the play method on it
-    6.3) Compare the length of the playerSequence to the computer sequence 
-        6.3.1) If they are not equal reset the game
-        6.3.2) If they are equal:
-            - If the length of both eqals 35 show congrats message and reset the game
-            - If not set the player sequence as empty and start the next round afte a second (So that player can see they completed the sequence correctly) by going back to step 5.3
+    6.2) Play the corresponding sound for the button that is played
+        6.2.1)Grab corresponding tile element from html and use play method on it
+    6.3) Compare the length of the playerSequence array to sequence array and show in the message how many taps are left. If 0 taps are left round is over
+    6.4) If round is over reset the game
+        6.4.1) set the player and computer sequence to empty arrays
+        6.4.2) set level to zero
+        6.4.3) hide start button and level message
+        6.4.4) Make the board unclickable
+    6.5) If player sequence number reaches 35 show message of congrats and reset the game
 
 
 ## Identify the application's state (data)
