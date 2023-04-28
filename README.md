@@ -18,7 +18,7 @@
    - Drawing and visual layout of the page 
 >>>>>>> 9810711ea80d5c1051c26170129ab343862ccecf
 
-   ![Simon Game](Assets/SimonBoard.png)
+   ![Simon Game](assets/SimonBoard.png)
     
 
 ## Pseudocode
