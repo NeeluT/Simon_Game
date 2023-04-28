@@ -68,6 +68,10 @@
 - CSS
 - JavaScript
 
+## How to play:
+Hit start and wait for the computer to show you an order of tiles beeping. Once the computer is done and it says your tun go ahead and try to follow the pattern same as computer by clicking on the tiles. On every round it will add one more tile to the sequences. You can go up to 35 levels. If you hit a wrong tile along the way you will get the game over message. Then you can start over.
+
+
 ## Next Steps:
 - Add graphics
 - Add Scores
