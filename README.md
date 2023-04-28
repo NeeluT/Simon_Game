@@ -1,11 +1,6 @@
 # Planning for Simon Game
 
 ## Wireframes the UI◊
-
-- High Fidelity
-    - Buttons and tiles are clickable
-    
-- Low Fidelity
     - The name of the game (Simon) shows up on top of the page
     - Messages to the user about the level of the game show up on top of the board
     - Messages to the user about the turns show up on the bottom of the board
@@ -66,16 +61,15 @@
             - If not set the player sequence as empty and start the next round afte a second (So that player can see they completed the sequence correctly) by going back to step 5.3
 
 
-## Identify the application's state (data)
+## Technologies I used:
+- HTML
+- CSS
+- JavaScript
 
-```js
-let sequence
-```
+## How to play:
+Hit start and wait for the computer to show you an order of tiles beeping. Once the computer is done and it says your tun go ahead and try to follow the pattern same as computer by clicking on the tiles. On every round it will add one more tile to the sequences. You can go up to 35 levels. If you hit a wrong tile along the way you will get the game over message. Then you can start over.
 
-```js
-let playerSequence
-```
-
-```js
-let level
-```
+## Next Steps:
+- Add graphics
+- Add Scores
+- Add quit option during the game

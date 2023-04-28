@@ -124,9 +124,10 @@ function nextRound() {
 function handleClick(event) {
   // retrieves the data-tile object of the clicked element 
   const value = event.target.dataset;
-
+console.log(value)
   // extracts the value of the data-tile
   const tile = value.tile;
+  console.log(tile)
 
   // check if the clicked element has a data-tile attribute
   if (tile) {
