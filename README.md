@@ -73,4 +73,3 @@ Hit start and wait for the computer to show you an order of tiles beeping. Once 
 - Add graphics
 - Add Scores
 - Add quit option during the game
-
