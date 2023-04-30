@@ -98,21 +98,28 @@ function nextStep() {
 // increase level by 1, make the board unclickable and show the new level
 // create a new sequence by grabing the random return of nextStep function
 // Add a delay before playerTurn is run to make sure computer is done with the taps
+
 function nextRound() {
+  
+  if(level != 0) {
+      message.textContent = "Good job!!";
+    } 
+  setTimeout(()=>{
+    message.textContent = "Computer's Turn";
+    level += 1;
+    board.classList.add('unclickable');
+    levelMessage.textContent = `Level ${level} of 35`;
 
-  message.textContent = "Computer's Turn";
-  level += 1;
-  board.classList.add('unclickable');
-  levelMessage.textContent = `Level ${level} of 35`;
+    const nextSequence = [...sequence];
+    nextSequence.push(nextStep());
+    playRound(nextSequence);
 
-  const nextSequence = [...sequence];
-  nextSequence.push(nextStep());
-  playRound(nextSequence);
-
-  sequence = [...nextSequence];
-  setTimeout(() => {
-    playerTurn(level);
-  }, level * 600 + 1000);
+    sequence = [...nextSequence];
+    setTimeout(() => {
+      playerTurn(level);
+    }, level * 600 + 1000);
+  },1000)
+ 
 }
 
 // pushes the tile value to the playerSequence array and stores its index in the index variable
@@ -154,7 +161,7 @@ console.log(value)
       playerSequence = [];
       setTimeout(() => {
         nextRound();
-      }, 1000);
+      }, 500);
       return;
     }
   }
