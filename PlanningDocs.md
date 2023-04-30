@@ -34,7 +34,7 @@ Plans to improve this game in the future:
     - Play again button goes on the bottom of the page
     - Drawing and visual layout of the page 
 
-    ![Simon Game](Assets/SimonBoard.png)
+    ![Simon Game](assets/SimonBoard.png)
     
 
 ## Pseudocode
