@@ -60,6 +60,10 @@
             - If the length of both eqals 35 show congrats message and reset the game
             - If not set the player sequence as empty and start the next round afte a second (So that player can see they completed the sequence correctly) by going back to step 5.3
 
+## Get Started
+Let's play:
+
+https://neelut.github.io/Simon_Game/
 
 ## Technologies I used:
 - HTML
